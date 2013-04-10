@@ -1548,3 +1548,5 @@ Processing by RailsAdmin::MainController#data_quality_view as HTML
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
   Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/pjax (5.5ms)
 Completed 200 OK in 35ms (Views: 17.6ms | ActiveRecord: 1.1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
