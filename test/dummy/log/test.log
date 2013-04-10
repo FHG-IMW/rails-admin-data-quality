@@ -1,0 +1,1532 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-10 10:42:25 +0200
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:43:33 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 500 Internal Server Error in 71ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:44:29 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 500 Internal Server Error in 49ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:45:49 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 125ms (Views: 68.9ms | ActiveRecord: 1.6ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:46:09 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 116ms (Views: 59.5ms | ActiveRecord: 1.6ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:47:53 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 115ms (Views: 58.2ms | ActiveRecord: 1.6ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:48:38 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 115ms (Views: 57.2ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 10:48:38 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (20.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 35ms (Views: 27.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:50:10 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 119ms (Views: 60.9ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 10:50:10 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (19.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:56:31 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 117ms (Views: 62.6ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 10:56:31 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (36.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 52ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/" for 127.0.0.1 at 2013-04-10 10:56:31 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (8.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 10:58:09 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (24.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 120ms (Views: 62.3ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 10:58:09 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (38.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 54ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/quality" for 127.0.0.1 at 2013-04-10 10:58:09 +0200
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:00:53 +0200
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:02:06 +0200
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:03:51 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 117ms (Views: 62.7ms | ActiveRecord: 1.7ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:03:51 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (37.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 52ms (Views: 44.2ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/quality" for 127.0.0.1 at 2013-04-10 11:03:51 +0200
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:04:18 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.7ms)
+Completed 200 OK in 117ms (Views: 62.6ms | ActiveRecord: 1.7ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:04:18 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (39.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 54ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:04:18 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (7.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 404 Not Found in 22ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:04:53 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 118ms (Views: 62.9ms | ActiveRecord: 1.8ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:04:53 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (39.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 54ms (Views: 45.7ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:04:53 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (8.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.5ms)
+Completed 404 Not Found in 22ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" 
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:12:48 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "people" [0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 74ms (Views: 61.1ms | ActiveRecord: 0.5ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:12:48 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (20.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 35ms (Views: 27.0ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:12:48 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (8.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 404 Not Found in 40ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:17:24 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 115ms (Views: 58.6ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:17:25 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (20.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 36ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:17:25 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (7.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.3ms)
+Completed 404 Not Found in 40ms (Views: 14.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:20:25 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (24.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 115ms (Views: 62.1ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:20:25 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (38.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 53ms (Views: 45.1ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:20:25 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (7.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 404 Not Found in 21ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:20:45 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (9.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 122ms (Views: 63.8ms | ActiveRecord: 1.6ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:20:45 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (20.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 36ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:20:46 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (8.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 404 Not Found in 39ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable") VALUES (1, '001', 't')
+SQLite3::ConstraintException: constraint failed: INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable") VALUES (1, '001', 't')
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:24:16', '2013-04-10 09:24:16')[0m
+  [1m[35m (22.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:24:16 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 88ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:24:16 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (51.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 61ms (Views: 57.5ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:24:16 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (30.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 63ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable") VALUES (1, '001', 1)
+SQLite3::ConstraintException: constraint failed: INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable") VALUES (1, '001', 1)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type") VALUES (1, '001', 't', 1, 'company')
+SQLite3::ConstraintException: constraint failed: INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type") VALUES (1, '001', 't', 1, 'company')
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "testable_id", "testable_type") VALUES (1, '001', 1, 'company')
+SQLite3::ConstraintException: constraint failed: INSERT INTO "quality_test_states" ("id", "identifier", "testable_id", "testable_type") VALUES (1, '001', 1, 'company')
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "quality_test_states" ("id", "not_applicable", "testable_id", "testable_type") VALUES (1, 't', 1, 'company')
+SQLite3::ConstraintException: constraint failed: INSERT INTO "quality_test_states" ("id", "not_applicable", "testable_id", "testable_type") VALUES (1, 't', 1, 'company')
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:31:30', '2013-04-10 09:31:30')[0m
+  [1m[35m (28.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Apr 2013 09:31:30 UTC +00:00], ["identifier", "001"], ["not_applicable", false], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:31:30 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:31:30 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (19.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 99ms (Views: 65.3ms | ActiveRecord: 0.3ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:31:30 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (49.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:31:30 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (4.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.7ms)
+Completed 200 OK in 17ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '001', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "people"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:32:02', '2013-04-10 09:32:02')
+  [1m[36m (24.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Apr 2013 09:32:02 UTC +00:00], ["identifier", "001"], ["not_applicable", false], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:32:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:32:02 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "people" [0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (19.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 98ms (Views: 63.8ms | ActiveRecord: 0.3ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:32:02 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (50.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 61ms (Views: 57.5ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:32:02 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (4.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '001', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '002', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:32:28', '2013-04-10 09:32:28')[0m
+  [1m[35m (9.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Apr 2013 09:32:28 UTC +00:00], ["identifier", "001"], ["not_applicable", false], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:32:28 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:32:28 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (19.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 98ms (Views: 64.2ms | ActiveRecord: 0.3ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:32:28 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (49.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:32:28 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (4.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.3ms)
+Completed 200 OK in 16ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '001', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '002', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:34:23', '2013-04-10 09:34:23')[0m
+  [1m[35m (19.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:34:23 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 88ms (Views: 64.1ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:34:23 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (49.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:34:23 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (31.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.5ms)
+Completed 200 OK in 62ms (Views: 39.2ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:34:23 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:34:23.588638' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.2ms)
+Completed 200 OK in 29ms (Views: 13.2ms | ActiveRecord: 1.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '01', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '02', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:39:23', '2013-04-10 09:39:23')[0m
+  [1m[35m (19.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:39:23 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 88ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:39:23 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (48.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:39:23 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (32.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.5ms)
+Completed 200 OK in 66ms (Views: 40.7ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:39:23 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:39:23.814991' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.2ms)
+Completed 200 OK in 33ms (Views: 13.1ms | ActiveRecord: 1.2ms)
+Started GET "/admin/company/1/data_quality_view?identifier=01&not_applicable=false" for 127.0.0.1 at 2013-04-10 11:39:23 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"false", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (25.7ms)
+Completed 200 OK in 45ms (Views: 29.6ms | ActiveRecord: 0.7ms)
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '01', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '02', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:40:35', '2013-04-10 09:40:35')[0m
+  [1m[35m (19.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:40:35 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 89ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:40:35 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (47.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:40:35 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (31.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 65ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:40:35 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:40:35.944653' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.2ms)
+Completed 200 OK in 33ms (Views: 13.2ms | ActiveRecord: 1.3ms)
+Started GET "/admin/company/1/data_quality_view?identifier=01&not_applicable=false" for 127.0.0.1 at 2013-04-10 11:40:35 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"false", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (24.1ms)
+Completed 200 OK in 43ms (Views: 28.2ms | ActiveRecord: 0.7ms)
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+Started GET "/admin/company/1/data_quality_view?identifier=03&not_applicable=true" for 127.0.0.1 at 2013-04-10 11:40:36 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"03", "not_applicable"=>"true", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Apr 2013 09:40:36 UTC +00:00], ["identifier", "03"], ["not_applicable", true], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:40:36 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "quality_test_states" SET "not_applicable" = 'f', "updated_at" = '2013-04-10 09:40:36.016501' WHERE "quality_test_states"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.2ms)
+Completed 200 OK in 27ms (Views: 9.1ms | ActiveRecord: 1.8ms)
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '01', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '02', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:41:03', '2013-04-10 09:41:03')[0m
+  [1m[35m (18.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:41:03 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 89ms (Views: 66.4ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:41:04 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (49.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:41:04 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (30.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 63ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:41:04 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:41:04.161929' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.4ms)
+Completed 200 OK in 34ms (Views: 13.5ms | ActiveRecord: 1.3ms)
+Started GET "/admin/company/1/data_quality_view?identifier=01&not_applicable=false" for 127.0.0.1 at 2013-04-10 11:41:04 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"false", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (25.4ms)
+Completed 200 OK in 44ms (Views: 29.2ms | ActiveRecord: 0.7ms)
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+Started GET "/admin/company/1/data_quality_view?identifier=03&not_applicable=true" for 127.0.0.1 at 2013-04-10 11:41:04 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"03", "not_applicable"=>"true", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Apr 2013 09:41:04 UTC +00:00], ["identifier", "03"], ["not_applicable", true], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:41:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "quality_test_states" SET "not_applicable" = 'f', "updated_at" = '2013-04-10 09:41:04.235129' WHERE "quality_test_states"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.6ms)
+Completed 200 OK in 27ms (Views: 9.5ms | ActiveRecord: 1.8ms)
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '01', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '02', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:43:14', '2013-04-10 09:43:14')[0m
+  [1m[35m (32.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:43:14 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 87ms (Views: 65.1ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:43:14 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (48.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:43:14 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (32.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.5ms)
+Completed 200 OK in 64ms (Views: 40.2ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:43:14 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:43:14.990244' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.3ms)
+Completed 200 OK in 33ms (Views: 13.4ms | ActiveRecord: 1.3ms)
+Started GET "/admin/company/1/data_quality_view?identifier=01&not_applicable=false" for 127.0.0.1 at 2013-04-10 11:43:15 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"false", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (24.8ms)
+Completed 200 OK in 43ms (Views: 28.6ms | ActiveRecord: 0.7ms)
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+Started GET "/admin/company/1/data_quality_view?identifier=04&not_applicable=true" for 127.0.0.1 at 2013-04-10 11:43:15 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"04", "not_applicable"=>"true", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 10 Apr 2013 09:43:15 UTC +00:00], ["identifier", "04"], ["not_applicable", true], ["testable_id", 1], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:43:15 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "quality_test_states" SET "not_applicable" = 'f', "updated_at" = '2013-04-10 09:43:15.064497' WHERE "quality_test_states"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.3ms)
+Completed 200 OK in 27ms (Views: 9.2ms | ActiveRecord: 1.8ms)
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Unable to load quality_test_state, underlying cause No such file to load -- quality_test_state 
+
+ /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:317:in `rescue in depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:312:in `depend_on'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:767:in `try_to_load_dependency'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:782:in `block in require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:779:in `require_fixture_classes'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/activerecord-3.2.13/lib/active_record/fixtures.rb:762:in `fixtures'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:6:in `<class:DataQualityInterfaceTest>'
+/home/max/fraunhofer/rails_admin_data_quality/test/integration/data_quality_interface_test.rb:5:in `<top (required)>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `require'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:10:in `block (2 levels) in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `each'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:9:in `block in <main>'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `select'
+/home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rake-10.0.4/lib/rake/rake_test_loader.rb:4:in `<main>'
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "companies"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "companies" ("id", "name", "start_of_operations", "end_of_operations", "created_at", "updated_at", "quality_score", "failed_tests") VALUES (1, 'Full Featured', '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000', 15, 1)[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "companies" ("id", "start_of_operations", "end_of_operations", "created_at", "updated_at") VALUES (2, '2012-01-01', '2013-01-01', '2012-02-24 14:50:11.000000', '2012-07-18 12:54:55.000000')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "quality_test_states"[0m
+  [1m[35mFixture Insert (0.0ms)[0m  INSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (1, '01', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "quality_test_states" ("id", "identifier", "not_applicable", "testable_id", "testable_type", "created_at", "updated_at") VALUES (2, '02', 'f', 1, 'Company', '2013-04-10 09:31:30.741848', '2013-04-10 09:31:30.741848')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "people"
+  [1m[36mFixture Insert (0.0ms)[0m  [1mINSERT INTO "people" ("id", "name", "company_id", "employed_since", "created_at", "updated_at") VALUES (1, 'Test Fred', 1, '2012-01-01', '2013-04-10 09:44:57', '2013-04-10 09:44:57')[0m
+  [1m[35m (11.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/admin" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "people" 
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (10.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (2.8ms)
+Completed 200 OK in 88ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (48.9ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 59ms (Views: 55.5ms | ActiveRecord: 0.2ms)
+Started GET "/admin/company/1" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/application (29.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 200 OK in 61ms (Views: 37.6ms | ActiveRecord: 0.3ms)
+Started GET "/admin/company/1/data_quality_view" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mUPDATE "companies" SET "quality_score" = 18, "failed_tests" = 0, "updated_at" = '2013-04-10 09:44:57.557675' WHERE "companies"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (4.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.3ms)
+Completed 200 OK in 34ms (Views: 13.5ms | ActiveRecord: 1.2ms)
+Started GET "/admin/company/2/data_quality_view?identifier=01&not_applicable=true" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"true", "model_name"=>"company", "id"=>"2"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "quality_test_states" ("created_at", "identifier", "not_applicable", "testable_id", "testable_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Apr 2013 09:44:57 UTC +00:00], ["identifier", "01"], ["not_applicable", true], ["testable_id", 2], ["testable_type", "Company"], ["updated_at", Wed, 10 Apr 2013 09:44:57 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 2[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "companies" SET "quality_score" = 13, "failed_tests" = 1, "updated_at" = '2013-04-10 09:44:57.590452' WHERE "companies"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (1.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (24.5ms)
+Completed 200 OK in 45ms (Views: 28.9ms | ActiveRecord: 1.4ms)
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+Started GET "/admin/company/2/data_quality_view?identifier=01&not_applicable=false" for 127.0.0.1 at 2013-04-10 11:44:57 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"identifier"=>"01", "not_applicable"=>"false", "model_name"=>"company", "id"=>"2"}
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "quality_test_states" SET "not_applicable" = 'f', "updated_at" = '2013-04-10 09:44:57.627332' WHERE "quality_test_states"."id" = 3[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 2
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "companies" SET "quality_score" = 12, "failed_tests" = 2, "updated_at" = '2013-04-10 09:44:57.638346' WHERE "companies"."id" = 2[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/application (1.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.3ms)
+Completed 200 OK in 25ms (Views: 9.8ms | ActiveRecord: 0.9ms)
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 2 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 2 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m

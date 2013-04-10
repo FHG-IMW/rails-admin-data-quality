@@ -1,0 +1,1550 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (53.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (5.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (28.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (13.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('0')
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (46.4ms)[0m  CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start_of_operations" varchar(255), "end_of_operations" varchar(255), "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (25.0ms)[0m  [1mCREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_id" integer, "employed_since" date, "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (44.7ms)[0m  CREATE TABLE "quality_test_states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "identifier" varchar(255), "not_applicable" boolean, "testable_id" integer, "testable_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.8ms)[0m  [1mCREATE TABLE "rails_admin_histories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "username" varchar(255), "item" integer, "table" varchar(255), "month" integer(2), "year" integer(5), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (16.3ms)[0m  CREATE INDEX "index_rails_admin_histories" ON "rails_admin_histories" ("item", "table", "month", "year")
+  [1m[36m (5.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (6.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('0')
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (60.4ms)[0m  [1mCREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start_of_operations" varchar(255), "end_of_operations" varchar(255), "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (14.9ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_id" integer, "employed_since" date, "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (6.9ms)[0m  [1mCREATE TABLE "quality_test_states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "identifier" varchar(255), "not_applicable" boolean, "testable_id" integer, "testable_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (5.8ms)[0m  CREATE TABLE "rails_admin_histories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "username" varchar(255), "item" integer, "table" varchar(255), "month" integer(2), "year" integer(5), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (7.3ms)[0m  [1mCREATE INDEX "index_rails_admin_histories" ON "rails_admin_histories" ("item", "table", "month", "year")[0m
+  [1m[35m (7.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (5.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (5.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/admin/" for 127.0.0.1 at 2013-04-10 11:06:07 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "people" [0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.1ms)
+Compiled rails_admin/rails_admin.css  (3005ms)  (pid 4631)
+Compiled jquery.js  (21ms)  (pid 4631)
+Compiled jquery_ujs.js  (0ms)  (pid 4631)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 4631)
+Compiled rails_admin/jquery.remotipart.fixed.js  (30ms)  (pid 4631)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4631)
+Compiled jquery.ui.core.js  (1ms)  (pid 4631)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4631)
+Compiled jquery.ui.mouse.js  (1ms)  (pid 4631)
+Compiled jquery.ui.sortable.js  (55ms)  (pid 4631)
+Compiled jquery.ui.position.js  (0ms)  (pid 4631)
+Compiled jquery.ui.menu.js  (28ms)  (pid 4631)
+Compiled jquery.ui.autocomplete.js  (57ms)  (pid 4631)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 4631)
+Compiled rails_admin/jquery.ui.timepicker.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 4631)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 4631)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 4631)
+Compiled jquery_nested_form.js  (0ms)  (pid 4631)
+Compiled rails_admin/ra.nested-form-hooks.js  (476ms)  (pid 4631)
+Compiled bootstrap-transition.js  (0ms)  (pid 4631)
+Compiled bootstrap-affix.js  (0ms)  (pid 4631)
+Compiled bootstrap-alert.js  (0ms)  (pid 4631)
+Compiled bootstrap-button.js  (0ms)  (pid 4631)
+Compiled bootstrap-carousel.js  (0ms)  (pid 4631)
+Compiled bootstrap-collapse.js  (0ms)  (pid 4631)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 4631)
+Compiled bootstrap-modal.js  (0ms)  (pid 4631)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 4631)
+Compiled bootstrap-tab.js  (21ms)  (pid 4631)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 4631)
+Compiled bootstrap-popover.js  (0ms)  (pid 4631)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 4631)
+Compiled bootstrap.js  (164ms)  (pid 4631)
+Compiled rails_admin/ra.widgets.js  (131ms)  (pid 4631)
+Compiled rails_admin/ui.js  (106ms)  (pid 4631)
+Compiled rails_admin/custom/ui.js  (115ms)  (pid 4631)
+Compiled rails_admin/rails_admin.js  (1484ms)  (pid 4631)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 4809ms (Views: 4741.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:06:11 +0200
+Served asset /rails_admin/rails_admin.css - 200 OK (36ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.iframe-transport.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.effect.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.core.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.widget.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.mouse.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.sortable.js - 200 OK (30ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.position.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.menu.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.datepicker.js - 200 OK (6ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery.ui.autocomplete.js - 200 OK (8ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 200 OK (3ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.filter-box.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.filtering-select.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.remote-form.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/jquery.pjax.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /jquery_nested_form.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-transition.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /bootstrap.js - 200 OK (11ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ra.widgets.js - 200 OK (2ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/custom/ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /rails_admin/rails_admin.js - 200 OK (31ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:06:12 +0200
+Served asset /fontawesome-webfont.woff - 200 OK (25ms)
+
+
+Started GET "/admin/company?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:06:14 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (24.8ms)
+Completed 200 OK in 42ms (Views: 30.5ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:10:59 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[36mCompany Load (0.1ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (42.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (5.3ms)
+Completed 200 OK in 287ms (Views: 219.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/rails_admin.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.effect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.core.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.mouse.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.sortable.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.position.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.menu.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.filter-box.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.filtering-select.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.remote-form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/jquery.pjax.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /jquery_nested_form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /bootstrap.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ra.widgets.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/custom/ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /rails_admin/rails_admin.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:11:00 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (2ms)
+
+
+Started GET "/admin/company/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:11:08 +0200
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company"}
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_form_field.html.haml (21.2ms)
+
+
+[RailsAdmin] Please add 'attr_accessible :start_of_operations' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :start_of_operations do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :end_of_operations' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :end_of_operations do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :quality_score' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :quality_score do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :failed_tests' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :failed_tests do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :person_ids' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :people do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_submit_buttons.html.haml (2.8ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (82.8ms)
+Completed 200 OK in 93ms (Views: 89.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/admin/company/new" for 127.0.0.1 at 2013-04-10 11:11:13 +0200
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MGokqv+jDMPmHuRbfx5bX0ubj8FbOTKqu2KWteXF+5c=", "company"=>{"name"=>"test"}, "return_to"=>"http://localhost:3000/admin/company", "_save"=>"", "model_name"=>"company"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" IS NULL AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" IS NULL AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" IS NULL AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" IS NULL AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35mSQL (3.7ms)[0m  INSERT INTO "companies" ("created_at", "end_of_operations", "failed_tests", "name", "quality_score", "start_of_operations", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 10 Apr 2013 09:11:13 UTC +00:00], ["end_of_operations", nil], ["failed_tests", 3], ["name", "test"], ["quality_score", 3], ["start_of_operations", nil], ["updated_at", Wed, 10 Apr 2013 09:11:13 UTC +00:00]]
+  [1m[36m (15.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/company
+Completed 302 Found in 59ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:11:13 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (41.4ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.6ms)
+Completed 200 OK in 143ms (Views: 140.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/rails_admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.effect.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.sortable.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.mouse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.filter-box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.remote-form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/jquery.pjax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /jquery_nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.filtering-select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ra.widgets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/custom/ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /rails_admin/rails_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:11:14 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/admin/company/1?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:11:18 +0200
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (4.6ms)
+Completed 200 OK in 18ms (Views: 12.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/company/1/data_quality_view?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:11:21 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.2ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."company_id" = 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "companies" SET "quality_score" = 6, "failed_tests" = 2, "updated_at" = '2013-04-10 09:11:21.355996' WHERE "companies"."id" = 1[0m
+  [1m[35m (20.0ms)[0m  commit transaction
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/pjax (5.7ms)
+Completed 200 OK in 60ms (Views: 18.8ms | ActiveRecord: 21.5ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (5.7ms)[0m  [1mDROP TABLE "companies"[0m
+  [1m[35m (21.2ms)[0m  CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start_of_operations" varchar(255), "end_of_operations" varchar(255), "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (6.4ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35m (3.4ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_id" integer, "employed_since" date, "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (4.0ms)[0m  [1mDROP TABLE "quality_test_states"[0m
+  [1m[35m (4.1ms)[0m  CREATE TABLE "quality_test_states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "identifier" varchar(255), "not_applicable" boolean, "testable_id" integer, "testable_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (3.7ms)[0m  [1mDROP TABLE "rails_admin_histories"[0m
+  [1m[35m (3.4ms)[0m  CREATE TABLE "rails_admin_histories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "username" varchar(255), "item" integer, "table" varchar(255), "month" integer(2), "year" integer(5), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (3.0ms)[0m  [1mCREATE INDEX "index_rails_admin_histories" ON "rails_admin_histories" ("item", "table", "month", "year")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (6.3ms)[0m  [1mDROP TABLE "companies"[0m
+  [1m[35m (21.2ms)[0m  CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "start_of_operations" varchar(255), "end_of_operations" varchar(255), "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (4.2ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35m (6.0ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_id" integer, "employed_since" date, "quality_score" integer DEFAULT 0, "failed_tests" integer DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (13.7ms)[0m  [1mDROP TABLE "quality_test_states"[0m
+  [1m[35m (6.0ms)[0m  CREATE TABLE "quality_test_states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "identifier" varchar(255), "not_applicable" boolean, "testable_id" integer, "testable_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (4.2ms)[0m  [1mDROP TABLE "rails_admin_histories"[0m
+  [1m[35m (6.0ms)[0m  CREATE TABLE "rails_admin_histories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "username" varchar(255), "item" integer, "table" varchar(255), "month" integer(2), "year" integer(5), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (14.9ms)[0m  [1mCREATE INDEX "index_rails_admin_histories" ON "rails_admin_histories" ("item", "table", "month", "year")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+
+
+Started GET "/admin/" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  [1m[35mCompany Load (0.1ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "people" [0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" ORDER BY people.updated_at desc LIMIT 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.5ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.2ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 269ms (Views: 199.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/rails_admin.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.effect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.core.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.mouse.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.sortable.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.menu.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.position.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.filter-box.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.filtering-select.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.remote-form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/jquery.pjax.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /jquery_nested_form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ra.widgets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/custom/ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /rails_admin/rails_admin.js - 304 Not Modified (54ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:35:12 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (2ms)
+
+
+Started GET "/admin/company?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:35:14 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "companies" 
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (54.9ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/company/1/data_quality_view?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:35:17 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/pjax (5.4ms)
+Completed 200 OK in 84ms (Views: 16.7ms | ActiveRecord: 1.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:35:52 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (3ms)
+
+
+Started GET "/admin/company/1/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:41:30 +0200
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_form_field.html.haml (0.9ms)
+
+
+[RailsAdmin] Please add 'attr_accessible :start_of_operations' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :start_of_operations do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :end_of_operations' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :end_of_operations do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :quality_score' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :quality_score do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :failed_tests' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :failed_tests do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :person_ids' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :people do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_submit_buttons.html.haml (2.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (62.2ms)
+Completed 200 OK in 203ms (Views: 99.4ms | ActiveRecord: 2.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin/company/1/edit" for 127.0.0.1 at 2013-04-10 11:42:16 +0200
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_form_field.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+
+
+[RailsAdmin] Please add 'attr_accessible :quality_score' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :quality_score do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :failed_tests' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :failed_tests do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+
+
+[RailsAdmin] Please add 'attr_accessible :person_ids' in your 'Company' model definition if you want to make it editable.
+You can also explicitely mark this field as read-only: 
+
+config.model Company do
+  field :people do
+    read_only true
+  end
+end
+
+Add 'config.yell_for_non_accessible_fields = false' in your 'rails_admin.rb' initializer if you do not want to see these warnings
+
+
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/_submit_buttons.html.haml (2.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/application (63.0ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.3ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (7.3ms)
+Completed 200 OK in 327ms (Views: 239.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/rails_admin.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.effect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.core.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.mouse.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.sortable.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.position.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.menu.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.filter-box.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.filtering-select.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.remote-form.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/jquery.pjax.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /jquery_nested_form.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /bootstrap.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ra.widgets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/custom/ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:17 +0200
+Served asset /rails_admin/rails_admin.js - 304 Not Modified (56ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:42:18 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (2ms)
+
+
+Started PUT "/admin/company/1/edit" for 127.0.0.1 at 2013-04-10 11:42:43 +0200
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MGokqv+jDMPmHuRbfx5bX0ubj8FbOTKqu2KWteXF+5c=", "company"=>{"name"=>"Full Featured", "start_of_operations"=>"2012-01-01", "end_of_operations"=>"2013-01-01"}, "return_to"=>"", "_save"=>"", "model_name"=>"company", "id"=>"1"}
+  [1m[36mCompany Load (0.2ms)[0m  [1mSELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  UPDATE "companies" SET "name" = 'Full Featured', "start_of_operations" = '2012-01-01', "end_of_operations" = '2013-01-01', "quality_score" = 15, "failed_tests" = 1, "updated_at" = '2013-04-10 09:42:43.959709' WHERE "companies"."id" = 1
+  [1m[36m (26.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/company
+Completed 302 Found in 69ms (ActiveRecord: 27.9ms)
+
+
+Started GET "/admin/company" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"company"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" ORDER BY companies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "companies" [0m
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (30.6ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/max/.rvm/gems/ruby-1.9.3-p125@testapp/gems/rails_admin-0.4.6/app/views/layouts/rails_admin/pjax.html.haml (3.6ms)
+Completed 200 OK in 138ms (Views: 134.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/rails_admin.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.effect.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/jquery.remotipart.fixed.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.mouse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.sortable.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.menu.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/jquery.ui.timepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.datetimepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/jquery.colorpicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.filter-box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.filtering-multiselect.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.filtering-select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.remote-form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/jquery.pjax.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /jquery_nested_form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.nested-form-hooks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ra.widgets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/custom/ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 127.0.0.1 at 2013-04-10 11:42:44 +0200
+Served asset /rails_admin/rails_admin.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-04-10 11:42:45 +0200
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/admin/company/1/data_quality_view?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2013-04-10 11:42:50 +0200
+Processing by RailsAdmin::MainController#data_quality_view as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"company", "id"=>"1"}
+  [1m[35mCompany Load (0.2ms)[0m  SELECT "companies".* FROM "companies" WHERE "companies"."id" = 1 LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.1ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.1ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE "people"."company_id" = 1
+  [1m[36mDataQuality::QualityTestState Load (0.2ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1[0m
+  [1m[35mDataQuality::QualityTestState Load (0.2ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1
+  [1m[36mDataQuality::QualityTestState Load (0.2ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '01' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '02' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '03' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '04' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '05' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "quality_test_states".* FROM "quality_test_states" WHERE "quality_test_states"."testable_id" = 1 AND "quality_test_states"."testable_type" = 'Company' AND "quality_test_states"."identifier" = '06' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered /home/max/fraunhofer/rails_admin_data_quality/app/views/rails_admin/main/data_quality_view.html.haml within layouts/rails_admin/pjax (5.5ms)
+Completed 200 OK in 35ms (Views: 17.6ms | ActiveRecord: 1.1ms)

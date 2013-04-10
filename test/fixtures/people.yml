@@ -1,0 +1,5 @@
+person:
+  id: 1
+  name: "Test Fred"
+  company_id: 1
+  employed_since: 2012-01-01

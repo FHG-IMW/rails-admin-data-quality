@@ -1,0 +1,10 @@
+en:
+  admin:
+    actions:
+      data_quality_view:
+        title: "DataQuality"
+        menu: "DataQuality"
+        breadcrumb: "DataQuality"
+        link: "DataQuality"
+        bulk_link: "DataQuality"
+        done: "DataQuality"

@@ -1,0 +1,16 @@
+qts1:
+  id: 1
+  identifier: '01'
+  not_applicable: false
+  testable_id: 1
+  testable_type: Company
+  created_at: 2013-04-10 09:31:30.741848231 Z
+  updated_at: 2013-04-10 09:31:30.741848231 Z
+qts2:
+  id: 2
+  identifier: '02'
+  not_applicable: false
+  testable_id: 1
+  testable_type: Company
+  created_at: 2013-04-10 09:31:30.741848231 Z
+  updated_at: 2013-04-10 09:31:30.741848231 Z

@@ -1,0 +1,68 @@
+.railsadmin_quality
+  %h4
+    ="The quality score of \"#{object_name_for(@object)}\" is #{@object.quality_score}"
+    - if @object.class.respond_to?(:paper_trail_enabled_for_model)
+      -if @object.class.try?(:paper_trail_enabled_for_model)
+        %span#score_graph
+          =get_last_quality_scores(@object)
+
+
+
+  -if @test_result
+    %table.table.table-striped
+      %thead
+        %tr
+          %th
+            Identifier
+          %th
+            Description
+          %th
+            Status
+          %th
+            Message
+          %th
+            Additional
+          %th
+            Actions
+      %tbody
+        -@test_result.quality_tests.each do |test|
+          %tr
+            %td
+              =test.identifier
+            %td
+              =test.description
+            %td
+              -status_class="label-important"
+              -status_class="label-success" if test.state == :pass
+              -status_class="label-warning" if test.state == :not_applicable
+              %span.label{:class => "#{status_class}"}
+                =test.state.to_s.humanize
+            %td
+              =test.message
+            %td
+              -test.failed_objects.each do |object|
+                =link_to truncate(object.class.to_s, :length => 10), rails_admin.show_path(object.class,object.id)
+            %td
+              -unless test.state==:pass
+                -if test.state==:not_applicable
+                  =button_to "Applicable", params.merge({:identifier => test.identifier, :not_applicable => false}), :class => "btn btn-primary"
+
+                -else
+                  =button_to "Not Applicable", params.merge({:identifier => test.identifier, :not_applicable => true}), :class => "btn btn-primary"
+
+- if @object.class.respond_to?(:paper_trail_enabled_for_model)
+  -if @object.class.try?(:paper_trail_enabled_for_model)
+    :javascript
+      $(window).ready(function(){
+        $('#score_graph').sparkline(
+        'html',
+        {
+          width: '100px',
+          chartRangeMin: 0,
+          chartRangeMax: #{max_quality_score(@object.class.all)},
+          normalRangeMin: #{avg_quality_score(@object.class.all)-5},
+          normalRangeMax: #{avg_quality_score(@object.class.all)+5},
+          drawNormalOnTop: true,
+          normalRangeColor: '#ffebc6'
+        });
+      });

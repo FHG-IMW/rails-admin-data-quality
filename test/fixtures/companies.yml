@@ -1,0 +1,15 @@
+full_company:
+  id: 1
+  name: 'Full Featured'
+  start_of_operations: 2012-01-01
+  end_of_operations: 2013-01-01
+  created_at: 2012-02-24 14:50:11.000000000 Z
+  updated_at: 2012-07-18 12:54:55.000000000 Z
+  quality_score: 15
+  failed_tests: 1
+empty_company:
+  id: 2
+  start_of_operations: 2012-01-01
+  end_of_operations: 2013-01-01
+  created_at: 2012-02-24 14:50:11.000000000 Z
+  updated_at: 2012-07-18 12:54:55.000000000 Z
