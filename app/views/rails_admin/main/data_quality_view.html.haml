@@ -2,7 +2,7 @@
   %h4
     ="The quality score of \"#{object_name_for(@object)}\" is #{@object.quality_score}"
     - if @object.class.respond_to?(:paper_trail_enabled_for_model)
-      -if @object.class.try?(:paper_trail_enabled_for_model)
+      -if @object.class.paper_trail_enabled_for_model
         %span#score_graph
           =get_last_quality_scores(@object)
 
@@ -51,7 +51,7 @@
                   =button_to "Not Applicable", params.merge({:identifier => test.identifier, :not_applicable => true}), :class => "btn btn-primary"
 
 - if @object.class.respond_to?(:paper_trail_enabled_for_model)
-  -if @object.class.try?(:paper_trail_enabled_for_model)
+  -if @object.class.paper_trail_enabled_for_model
     :javascript
       $(window).ready(function(){
         $('#score_graph').sparkline(
