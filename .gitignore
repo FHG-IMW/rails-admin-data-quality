@@ -1,7 +1,9 @@
-syntax: glob
-.git/**
-.rbc
+.hgignore
+.hg/*
+*.gem
+*.rbc
 .bundle
+.config
 .yardoc
 Gemfile.lock
 InstalledFiles
@@ -16,5 +18,4 @@ test/tmp
 test/version_tmp
 tmp
 .idea/*
-
-test/dummy/log
+test/dummy/log/*
