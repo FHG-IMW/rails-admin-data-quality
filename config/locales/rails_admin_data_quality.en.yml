@@ -8,3 +8,12 @@ en:
         link: "DataQuality"
         bulk_link: "DataQuality"
         done: "DataQuality"
+
+        score_text: "The quality score of \"%{object_name}\" is %{score}"
+        identifier_column: "Identifier"
+        description_column: "Description"
+        status_column: "Status"
+        message_column: "Message"
+        additional_column: "Additional"
+        actions_column: "Actions"
+

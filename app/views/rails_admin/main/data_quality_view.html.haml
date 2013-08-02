@@ -1,6 +1,6 @@
 .railsadmin_quality
   %h4
-    ="The quality score of \"#{object_name_for(@object)}\" is #{@object.quality_score}"
+    =I18n.t("admin.actions.data_quality_view.score_text", :object_name => object_name_for(@object), :score => @object.quality_score)
     - if @object.class.respond_to?(:paper_trail_enabled_for_model)
       -if @object.class.paper_trail_enabled_for_model
         %span#score_graph
@@ -13,17 +13,17 @@
       %thead
         %tr
           %th
-            Identifier
+            =I18n.t("admin.actions.data_quality_view.identifier_column")
           %th
-            Description
+            =I18n.t("admin.actions.data_quality_view.description_column")
           %th
-            Status
+            =I18n.t("admin.actions.data_quality_view.status_column")
           %th
-            Message
+            =I18n.t("admin.actions.data_quality_view.message_column")
           %th
-            Additional
+            =I18n.t("admin.actions.data_quality_view.additional_column")
           %th
-            Actions
+            =I18n.t("admin.actions.data_quality_view.actions_column")
       %tbody
         -@test_result.quality_tests.each do |test|
           %tr

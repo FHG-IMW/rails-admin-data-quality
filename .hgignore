@@ -18,3 +18,4 @@ tmp
 .idea/*
 
 test/dummy/log
+test/dummy/db/test.sqlite3
