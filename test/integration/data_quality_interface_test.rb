@@ -5,7 +5,7 @@ require 'test_helper'
 class DataQualityInterfaceTest < ActionDispatch::IntegrationTest
   fixtures :all
 
-  test "sites can be requested" do
+  test "sites can be requested" do  
     get "/admin"
     assert_response :success
 
@@ -30,7 +30,7 @@ class DataQualityInterfaceTest < ActionDispatch::IntegrationTest
     assert_equal false, quality_test_state.not_applicable
 
     assert_raises(ActionController::RoutingError) do
-      assert_recognizes({}, "/person/1/data_quality_view")
+      get "/person/1/data_quality_view"
     end
   end
 

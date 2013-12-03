@@ -1,6 +1,4 @@
 class Company < ActiveRecord::Base
-  attr_accessible :name, :start_of_operations, :end_of_operations
-
   has_quality_tests do
     quality_test '01', :method_name => :not_empty, :attr => :name
     quality_test '02',  :method_name => :not_empty, :attr => :start_of_operations
