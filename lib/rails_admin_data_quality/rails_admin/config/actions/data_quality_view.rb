@@ -13,7 +13,8 @@ module RailsAdmin
         end
 
         register_instance_option :visible do
-          bindings[:abstract_model].model.has_quality_tests?
+          model = bindings[:abstract_model].model
+          model.respond_to?(:has_quality_tests?) && model.has_quality_tests?
         end
 
         register_instance_option :controller do
