@@ -1,10 +1,12 @@
+- #TODO: Figure out why our helper is no longer included (it used to work with older rails_admin)
+- helper = Class.new.extend(RailsAdmin::DataQualityViewHelper)
 .railsadmin_quality
   %h4
-    =I18n.t("admin.actions.data_quality_view.score_text", :object_name => object_name_for(@object), :score => @object.quality_score)
+    =I18n.t("admin.actions.data_quality_view.score_text", :object_name => helper.object_name_for(@object, @abstract_model), :score => @object.quality_score)
     - if @object.class.respond_to?(:paper_trail_enabled_for_model)
       -if @object.class.paper_trail_enabled_for_model
         %span#score_graph
-          =get_last_quality_scores(@object)
+          = helper.get_last_quality_scores(@object)
 
 
 
@@ -45,10 +47,11 @@
             %td
               -unless test.state==:pass
                 -if test.state==:not_applicable
-                  =button_to "Applicable", params.merge({:identifier => test.identifier, :not_applicable => false}), :class => "btn btn-primary"
+                  - #TODO: Here we permit any params. This is a quickhack for Rails5 but might also be okay (admin backend and so.)
+                  =button_to "Applicable", params.merge({:identifier => test.identifier, :not_applicable => false}).permit!, :class => "btn btn-primary"
 
                 -else
-                  =button_to "Not Applicable", params.merge({:identifier => test.identifier, :not_applicable => true}), :class => "btn btn-primary"
+                  =button_to "Not Applicable", params.merge({:identifier => test.identifier, :not_applicable => true}).permit!, :class => "btn btn-primary"
 
 - if @object.class.respond_to?(:paper_trail_enabled_for_model)
   -if @object.class.paper_trail_enabled_for_model
