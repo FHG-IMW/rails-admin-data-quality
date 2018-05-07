@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "devise"
   spec.add_development_dependency "therubyracer"
+  spec.add_development_dependency "better_errors"
+  spec.add_development_dependency "binding_of_caller"
 end
